@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "From BlueMoon station 13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "bbl-icon"
+    },
+    {
+      "name": "bbl-equipped-NECK",
+      "directions": 4
+    }
+  ]
+}

@@ -18,3 +18,8 @@ reagent-name-vomit = рвота
 reagent-desc-vomit = Вы можете увидеть в ней несколько кусков чьей-то последней еды.
 reagent-name-grey-matter = серое вещество
 reagent-desc-grey-matter = Сок мыслей, вытекающий из ушей.
+# NES-localization
+reagent-name-Tarrantok-blood = фиолетовая кровь
+reagent-desc-Tarrantok-blood = Я надеюсь, что это был мутировавший томат.
+reagent-name-avian-blood = алая кровь
+reagent-desc-avian-blood = Ладно, это явно кровь.

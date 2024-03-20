@@ -1,0 +1,19 @@
+﻿# - type: lobbyBackground
+#   id: Bluat
+#   background: /Textures/NES/LobbyScreens/bluat.png
+
+# - type: lobbyBackground
+#   id: Cinematic
+#   background: /Textures/NES/LobbyScreens/cinematic.png
+
+# - type: lobbyBackground
+#   id: Raid
+#   background: /Textures/NES/LobbyScreens/raid.png
+
+# - type: lobbyBackground
+#   id: Salvagers
+#   background: /Textures/NES/LobbyScreens/salvagers.png
+
+# - type: lobbyBackground
+#   id: Space
+#   background: /Textures/NES/LobbyScreens/space.png

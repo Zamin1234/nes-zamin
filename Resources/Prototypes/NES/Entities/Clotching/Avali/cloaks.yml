@@ -1,0 +1,11 @@
+- type: entity
+  parent: ClothingNeckBase
+  id: NesClothingNeckCloakBbl
+  name: мантия Авали
+  description: A pompous and elite green cloak with a nice gold trim, tailored specifically to the Central Commander. It's so heavy, the gold trim might be real.
+  components:
+  - type: Sprite
+    sprite: NES/Clotches/acorp_avali_cloak.rsi
+    state: bbl-icon
+  - type: StealTarget
+    stealGroup: HeadCloak

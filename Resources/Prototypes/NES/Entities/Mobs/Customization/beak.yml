@@ -1,0 +1,8 @@
+- type: marking
+  id: Beak
+  bodyPart: Snout
+  markingCategory: Snout
+  speciesRestriction: [Avian]
+  sprites:
+    - sprite: NES/Mobs/Species/avian.rsi
+      state: beak
