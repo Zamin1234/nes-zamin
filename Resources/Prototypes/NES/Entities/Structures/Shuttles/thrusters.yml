@@ -9,7 +9,7 @@
   - type: Machine
     board: ThrusterMachineCircuitboard
   - type: Sprite
-    sprite: NES/Shuttle/RSY_thruster.rsi
+    sprite: NES/Structures/Power/Thrusters/RCS.rsi
     layers:
     - state: base
       map: ["enum.ThrusterVisualLayers.Base"]
@@ -33,7 +33,7 @@
   - type: Machine
     board: ThrusterMachineCircuitboard
   - type: Sprite
-    sprite: NES/Shuttle/OldRSY_thryster.rsi
+    sprite: NES/Structures/Power/Thrusters/oldRCS.rsi
     layers:
     - state: base
       map: ["enum.ThrusterVisualLayers.Base"]
@@ -74,11 +74,11 @@
       - !type:ExplodeBehavior
   - type: Explosive
     explosionType: Default
-    maxIntensity: 80
+    maxIntensity: 120
     intensitySlope: 5
-    totalIntensity: 300
+    totalIntensity: 500
   - type: Sprite
-    sprite: NES/Shuttle/ZETA_thruster.rsi
+    sprite: NES/Structures/Power/Thrusters/zeta.rsi
     layers:
     - state: base
       map: ["enum.ThrusterVisualLayers.Base"]

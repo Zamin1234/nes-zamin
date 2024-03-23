@@ -32,22 +32,22 @@ public sealed partial class ShuttleSystem
      * This is a way to move a shuttle from one location to another, via an intermediate map for fanciness.
      */
 
-    public const float DefaultStartupTime = 5.5f;
-    public const float DefaultTravelTime = 20f;
+    public const float DefaultStartupTime = 5f;
+    public const float DefaultTravelTime = 30f;
     public const float DefaultArrivalTime = 5f;
-    private const float FTLCooldown = 10f;
-    public const float FTLMassLimit = 300f;
+    private const float FTLCooldown = 60f;
+    public const float FTLMassLimit = 1000f;
 
     // I'm too lazy to make CVars.
 
-    private readonly SoundSpecifier _startupSound = new SoundPathSpecifier("/Audio/Effects/Shuttle/hyperspace_begin.ogg")
+    private readonly SoundSpecifier _startupSound = new SoundPathSpecifier("/Audio/NES/Effects/FTL/hyperspace_begin_new.ogg") //NES-changes
     {
-        Params = AudioParams.Default.WithVolume(-5f),
+        Params = AudioParams.Default.WithVolume(5f),
     };
 
-    private readonly SoundSpecifier _arrivalSound = new SoundPathSpecifier("/Audio/Effects/Shuttle/hyperspace_end.ogg")
+    private readonly SoundSpecifier _arrivalSound = new SoundPathSpecifier("/Audio/NES/Effects/FTL/hyperspace_end_new.ogg") //NES-changes
     {
-        Params = AudioParams.Default.WithVolume(-5f),
+        Params = AudioParams.Default.WithVolume(5f),
     };
 
     private readonly TimeSpan _hyperspaceKnockdownTime = TimeSpan.FromSeconds(5);
@@ -424,8 +424,8 @@ public sealed partial class ShuttleSystem
         DoTheDinosaur(xform);
         _dockSystem.SetDockBolts(entity, false);
 
-        _physics.SetLinearVelocity(uid, Vector2.Zero, body: body);
-        _physics.SetAngularVelocity(uid, 0f, body: body);
+        _physics.SetLinearVelocity(uid, new Vector2(20f, 0f), body: body); //NES-changes
+        _physics.SetAngularVelocity(uid, 5f, body: body);
         _physics.SetLinearDamping(body, entity.Comp2.LinearDamping);
         _physics.SetAngularDamping(body, entity.Comp2.AngularDamping);
 
@@ -471,8 +471,8 @@ public sealed partial class ShuttleSystem
 
         if (_physicsQuery.TryGetComponent(uid, out body))
         {
-            _physics.SetLinearVelocity(uid, Vector2.Zero, body: body);
-            _physics.SetAngularVelocity(uid, 0f, body: body);
+            _physics.SetLinearVelocity(uid, new Vector2(0f, 20f), body: body); //NES-changes
+            _physics.SetAngularVelocity(uid, 5f, body: body);
 
             // Disable shuttle if it's on a planet; unfortunately can't do this in parent change messages due
             // to event ordering and awake body shenanigans (at least for now).

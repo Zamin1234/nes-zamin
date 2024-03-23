@@ -5,5 +5,5 @@
   description: "Древний плакат с символом древнего государства."
   components:
   - type: Sprite
-    sprite: NES/Flags.rsi
+    sprite: NES/Structures/Flags.rsi
     state: FederationFlag

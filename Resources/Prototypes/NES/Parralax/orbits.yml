@@ -24,7 +24,7 @@
     - texture:
         !type:ImageParallaxTextureSource
         path: "/Textures/NES/Parallaxes/Aplanet3.png"
-      slowness: 0.999
+      slowness: 0.997
       scale: "1, 1"
       tiled: false
   layersLQ:

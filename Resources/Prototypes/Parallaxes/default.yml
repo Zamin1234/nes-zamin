@@ -48,7 +48,7 @@
     - texture:
         !type:ImageParallaxTextureSource
         path: "/Textures/NES/Parallaxes/WarpParallaxBG.png"
-      slowness: 0.000001
+      slowness: -2
       scale: "3, 3"
     - texture:
         !type:GeneratedParallaxTextureSource

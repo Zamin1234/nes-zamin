@@ -133,7 +133,7 @@
   - type: SignalSwitch
     clickSound: "/Audio/Machines/beep.ogg"
   - type: Sprite
-    sprite: NES/button.rsi
+    sprite: NES/Structures/Wallmounts/button.rsi
     layers:
     - state: dead
     - state: dead-unshaded
