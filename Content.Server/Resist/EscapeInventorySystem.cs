@@ -28,7 +28,7 @@ public sealed class EscapeInventorySystem : EntitySystem
     /// <summary>
     /// You can't escape the hands of an entity this many times more massive than you.
     /// </summary>
-    public const float MaximumMassDisadvantage = 1f;
+    public const float MaximumMassDisadvantage = 6f;
 
     public override void Initialize()
     {

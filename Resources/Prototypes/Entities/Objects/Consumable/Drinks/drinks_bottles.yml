@@ -635,6 +635,20 @@
 
 - type: entity
   parent: DrinkWaterBottleFull
+  id: DrinkAmmoniaBottleFull
+  name: бутылка аммиака
+  description: Пахнет стиральным порошком. Я был удивлен, когда узнал что Авали употребляют это вместо воды
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 150
+        reagents:
+        - ReagentId: Ammonia
+          Quantity: 150
+
+- type: entity
+  parent: DrinkWaterBottleFull
   id: DrinkTonicWaterBottleFull
   name: tonic water bottle
   description: Like soda water, but angrier maybe? Often sweeter.

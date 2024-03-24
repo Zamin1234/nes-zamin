@@ -26,7 +26,7 @@
     damageContainer: Biological # NES avian
     damageModifierSet: Avian
   - type: Bloodstream
-    bloodReagent: AvianBlood
+    bloodReagent: Blood
   - type: Tag
     tags:
     - CanPilot

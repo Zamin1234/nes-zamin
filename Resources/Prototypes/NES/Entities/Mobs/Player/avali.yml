@@ -26,7 +26,7 @@
     damageContainer: Biological # NES Avali
     damageModifierSet: Avali
   - type: Bloodstream
-    bloodReagent: Ammonia
+    bloodReagent: AmmoniaBlood
   - type: Tag
     tags:
     - CanPilot
@@ -34,14 +34,17 @@
     - DoorBumpOpener
   - type: SlowOnDamage
     speedModifierThresholds:
-      50: 0.2
-      90: 0.5
+      50: 0.9
+      90: 0.6
   - type: Temperature
-    heatDamageThreshold: 300.6
-    coldDamageThreshold: 200
-    currentTemperature: 295.11
+    heatDamageThreshold: 248.15
+    coldDamageThreshold: 183.8
+    currentTemperature: 235
+    heatDamage:
+      types:
+        Heat : 2 #per second, scales with temperature & other constants
   - type: ThermalRegulator
-    normalBodyTemperature: 295.11
+    normalBodyTemperature: 243.15
   - type: Fixtures
     fixtures:
       fix1:
@@ -60,9 +63,9 @@
     animation: WeaponArcClaw
     damage:
       types:
-        Blunt: 1
+        Blunt: 3
         Slash: 3
-        Piercing: 5
+        Piercing: 4
   - type: Vocal
     sounds:
       Male: MaleHuman

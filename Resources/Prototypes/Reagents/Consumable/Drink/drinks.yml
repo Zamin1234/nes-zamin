@@ -363,6 +363,17 @@
       effects:
       - !type:SatiateThirst
         factor: 4
+    Alcohol:
+      effects:
+      - !type:HealthChange
+        conditions:
+        - !type:OrganType
+          type: Avali
+          shouldHave: false
+        damage:
+          types:
+            Poison: 1
+            Heat: 10
 
 - type: reagent
   id: Ice

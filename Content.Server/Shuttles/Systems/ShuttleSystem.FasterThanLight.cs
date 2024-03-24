@@ -472,7 +472,7 @@ public sealed partial class ShuttleSystem
         if (_physicsQuery.TryGetComponent(uid, out body))
         {
             _physics.SetLinearVelocity(uid, new Vector2(0f, 20f), body: body); //NES-changes
-            _physics.SetAngularVelocity(uid, 5f, body: body);
+            _physics.SetAngularVelocity(uid, 1f, body: body);
 
             // Disable shuttle if it's on a planet; unfortunately can't do this in parent change messages due
             // to event ordering and awake body shenanigans (at least for now).
