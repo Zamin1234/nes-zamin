@@ -25,14 +25,12 @@
       fix1:
         shape:
           !type:PhysShapeAabb
-          bounds: "-0.45,-0.45,0.45,0.45"
-        density: 60
+          bounds: "-0.25,-0.35,0.25,0.35"
+        density: 300
         mask:
-        - Impassable
-        - LowImpassable
-#        - TabletopMachineMask
-#        layer:
-#        - TabletopMachineLayer
+        - TabletopMachineMask
+        layer:
+        - TabletopMachineLayer
 
 # Computers: Base Game
 - type: entity
