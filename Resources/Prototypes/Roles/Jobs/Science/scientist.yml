@@ -9,6 +9,7 @@
       time: 18000 #5 hrs # Corvax-RoleTime
   startingGear: ScientistGear
   icon: "JobIconScientist"
+  setPreference: false
   supervisors: job-supervisors-rd
   access:
   - Research

@@ -13,6 +13,7 @@
   startingGear: SecurityCadetGear
   icon: "JobIconSecurityCadet"
   supervisors: job-supervisors-security
+  setPreference: false
   canBeAntag: false
   access:
   - Security

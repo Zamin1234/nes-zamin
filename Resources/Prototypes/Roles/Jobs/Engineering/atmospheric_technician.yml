@@ -9,6 +9,7 @@
       time: 36000 #10 hrs # Corvax-RoleTime
   startingGear: AtmosphericTechnicianGear
   icon: "JobIconAtmosphericTechnician"
+  setPreference: false
   supervisors: job-supervisors-ce
   access:
   - Maintenance

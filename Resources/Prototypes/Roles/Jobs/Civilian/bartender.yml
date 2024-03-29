@@ -10,6 +10,7 @@
   startingGear: BartenderGear
   icon: "JobIconBartender"
   supervisors: job-supervisors-hop
+  setPreference: false
   access:
   - Service
   - Maintenance

@@ -8,6 +8,7 @@
       department: Medical
       time: 7200 #2 hrs # Corvax-RoleTime
   startingGear: DoctorGear
+  setPreference: false
   icon: "JobIconMedicalDoctor"
   supervisors: job-supervisors-cmo
   access:
