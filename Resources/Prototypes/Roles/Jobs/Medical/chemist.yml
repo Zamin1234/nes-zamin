@@ -8,6 +8,7 @@
       department: Medical
       time: 18000 #5 hrs # Corvax-RoleTime
   startingGear: ChemistGear
+  setPreference: false
   icon: "JobIconChemist"
   supervisors: job-supervisors-cmo
   access:

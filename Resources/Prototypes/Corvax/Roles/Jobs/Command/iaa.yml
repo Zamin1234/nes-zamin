@@ -12,6 +12,7 @@
   startingGear: IAAGear
   icon: "JobIconIAA"
   supervisors: job-supervisors-centcom
+  setPreference: false
   canBeAntag: false
   access:
   - Service
