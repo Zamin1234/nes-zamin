@@ -10,4 +10,4 @@
   canBuildInImpassable: false
   icon:
     sprite: _NF/Structures/Machines/computer_tabletop.rsi
-    state: computer_tabletop_frame
+    state: computer_tabletop

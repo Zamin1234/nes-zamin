@@ -71,14 +71,14 @@
     drawdepth: SmallObjects
     sprite: _NF/Structures/Machines/computer_tabletop.rsi
     layers:
-    - state: computer_tabletop_frame
+    - state: computer_tabletop
       map: [ "enum.ConstructionVisuals.Layer" ]
   - type: Appearance
   - type: GenericVisualizer
     visuals:
       enum.ConstructionVisuals.Key:
         enum.ConstructionVisuals.Layer:
-          frameUnsecured: { state: computer_tabletop_frame }
+          frameUnsecured: { state: computer_tabletop }
           boardUnsecured: { state: computer_board_exposed }
           missingWires: { state: computer_tabletop }
           monitorMissing: { state: computer_no_monitor }
