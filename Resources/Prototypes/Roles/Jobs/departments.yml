@@ -1,7 +1,7 @@
 - type: department
   id: Cargo
   description: department-Cargo-description
-  color: "#A46106"
+  color: "#b32104"
   roles:
   - CargoTechnician
   - Quartermaster
@@ -9,8 +9,8 @@
 
 - type: department
   id: Civilian
-  description: department-Civilian-description
-  color: "#9FED58"
+  description: nes-department-pomirs-description
+  color: "#64798a"
   weight: -10
   roles:
   - Bartender
@@ -34,8 +34,8 @@
 
 - type: department
   id: Command
-  description: department-Command-description
-  color: "#334E6D"
+  description: nes-department-administrartion-description
+  color: "#262630"
   roles:
   - Captain
   - IAA # Corvax-IAA
@@ -51,8 +51,8 @@
 
 - type: department
   id: Engineering
-  description: department-Engineering-description
-  color: "#EFB341"
+  description: nes-department-engineering-description
+  color: "#c95a18"
   roles:
   - AtmosphericTechnician
   - ChiefEngineer
@@ -61,8 +61,8 @@
 
 - type: department
   id: Medical
-  description: department-Medical-description
-  color: "#52B4E9"
+  description: nes-department-medical-description
+  color: "#18b6c9"
   roles:
   - Chemist
   - ChiefMedicalOfficer
@@ -73,8 +73,8 @@
 
 - type: department
   id: Security
-  description: department-Security-description
-  color: "#DE3A3A"
+  description: nes-department-security-description
+  color: "#20315d"
   weight: 20
   roles:
   - HeadOfSecurity
@@ -85,21 +85,10 @@
 
 - type: department
   id: Science
-  description: department-Science-description
-  color: "#D381C9"
+  description: nes-department-science-description
+  color: "#d8d3d8"
   roles:
   - ResearchDirector
   - Scientist
   - ResearchAssistant
 
-- type: department
-  id: Specific
-  description: department-Specific-description
-  color: "#9FED58"
-  weight: 10
-  roles:
-  - Boxer
-  - Reporter
-  - Zookeeper
-  - Psychologist
-  primary: false

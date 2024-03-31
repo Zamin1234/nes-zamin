@@ -8,14 +8,14 @@
   markingLimits: MobAvaliMarkingLimits
   dollPrototype: MobAvaliDummy
   skinColoration: Hues
-  maleFirstNames: names_Tarrantok
-  femaleFirstNames: names_Tarrantok
-  maleLastNames: names_arachnid_last # Corvax-LastnameGender
-  femaleLastNames: names_arachnid_last # Corvax-LastnameGender
-  minAge: 8
-  maxAge: 60
-  youngAge: 20
-  oldAge: 40
+  maleFirstNames: names_avali_m
+  femaleFirstNames: names_avali_f
+  maleLastNames: last_names_avali_m
+  femaleLastNames: last_names_avali_f
+  minAge: 12
+  maxAge: 80
+  youngAge: 18
+  oldAge: 60
   sexes:
     - Male
     - Female
