@@ -2,100 +2,70 @@
 - type: entity
   parent: ClothingNeckBase
   id: NesClothingNeckCloakgrey
-  name: cерый плащ
-  description: Серый плащ, что такого?
+  name: посеребрянный плащ
+  description: Серый плащ, с серебристыми линиями. Пахнет моим дедушкой.
   components:
   - type: Sprite
-    sprite: NES\Clotches\greycloak.rsi
-  - type: StealTarget
-    stealGroup: HeadCloak 
+    sprite: NES/Clotches/Cloak/greycloak.rsi
+
 - type: entity
   parent: ClothingUniformBase
   id: NesClothingUniformJumpsuitturtleneck
   name: cерая водолазка
-  description: Достаточно облегающий свитер с высоким воротом, также облегающим и закрывающим шею серого цвета
+  description: Достаточно облегающий свитер с высоким воротом, закрывающим шею своего владельца.
   components:
   - type: Sprite
-    sprite: NES\Clotches\greyturtleneck.rsi
+    sprite: NES/Clotches/Uniforms/greyturtleneck.rsi
+
 - type: entity #Ёбана я заебался... памагите...
   parent: ClothingNeckBase
   id: NesClothingNeckMantleGreyShoulder
   name: cерая наплечная мантия
-  description: Прямоугольный плащ серого цвета из плотного материала
+  description: Прямоугольный плащ серого цвета из плотного материала.
   components:
   - type: Sprite
-    sprite: NES\Clotches\greymantle.rsi
-- type: entity
-  parent: ClothingOuterStorageBase
-  id: NesClothingOuterCoatGreycoat
-  name: cерая китель-рубашка
-  description: Форменная однобортная куртка со стоячим воротником серого цвета
-  components:
-    - type: Sprite
-      sprite: NES\Clotches\greycoat.rsi
-    - type: Armor
-      modifiers:
-        coefficients:
-          Blunt: 1.0
-          Slash: 0.8
-          Piercing: 0.4
-          Heat: 0.8
-- type: entity
-  parent: ClothingOuterStorageBase
-  id: NesClothingOuterCoatRedcoat
-  name: красная китель-рубашка
-  description: Форменная однобортная куртка со стоячим воротником красного цвета
-  components:
-    - type: Sprite
-      sprite: NES\Clotches\redcoat.rsi
-    - type: Armor
-      modifiers:
-        coefficients:
-          Blunt: 1.0
-          Slash: 0.8
-          Piercing: 0.4
-          Heat: 0.8 #дЕНЬ 1
+    sprite: NES/Clotches/Cloak/greymantle.rsi
 
 - type: entity
   parent: ClothingUniformSkirtBase
   id: NesClothingUniformJumpgreyparade
   name: серая торжественная рубашка
-  description: Серая рубашка для особых мероприятий
+  description: Серая рубашка для особых мероприятий.
   components:
     - type: Sprite
-      sprite: NES\Clotches\greyparade.rsi
+      sprite: NES/Clotches/Uniforms/greyparade.rsi
     - type: Clothing
-      sprite: NES\Clotches\greyparade.rsi
+      sprite: NES/Clotches/Uniforms/greyparade.rsi
 
 - type: entity
   parent: ClothingUniformSkirtBase
   id: NesClothingUniformJumpblackparade
   name: чёрная торжественная рубашка
-  description: Чёрная рубашка для особых мероприятий. С золотыми вставками
+  description: Чёрная рубашка с золотыми вставками, для особых мероприятий.
   components:
     - type: Sprite
-      sprite: NES\Clotches\blackparade.rsi
+      sprite: NES/Clotches/Uniforms/blackparade.rsi
     - type: Clothing
-      sprite: NES\Clotches\blackparade.rsi
+      sprite: NES/Clotches/Uniforms/blackparade.rsi
 
 - type: entity
   parent: ClothingUniformSkirtBase
   id: NesClothingUniformJumpmaroongold
   name: бордовый комбинизон
-  description: Просто бордовый комбинизон, с золотыми пуговицами и чёрным низом
+  description: Просто бордовый комбинизон, с золотыми пуговицами и чёрным низом.
   components:
     - type: Sprite
-      sprite: NES\Clotches\maroonjumpsuit.rsi
+      sprite: NES/Clotches/Uniforms/maroonjumpsuit.rsi
     - type: Clothing
-      sprite: NES\Clotches\maroonjumpsuit.rsi
+      sprite: NES/Clotches/Uniforms/maroonjumpsuit.rsi
 
 - type: entity
   parent: ClothingUniformSkirtBase
   id: NesClothingUniformJumpmaroongoldparade
   name: торжественный бордовый комбинезон
-  description: Торжественный бордовый комбинезон, с золотыми вставками для особых мероприятий
+  description: Торжественный бордовый комбинезон, с золотыми вставками для особых мероприятий.
   components:
     - type: Sprite
-      sprite: NES\Clotches\maroonjumpsuitparade.rsi
+      sprite: NES/Clotches/Uniforms/maroonjumpsuitparade.rsi
     - type: Clothing
-      sprite: NES\Clotches\maroonjumpsuitparade.rsi
+      sprite: NES/Clotches/Uniforms/maroonjumpsuitparade.rsi
