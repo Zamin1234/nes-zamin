@@ -6,33 +6,30 @@
   layers:
     - texture:
         !type:ImageParallaxTextureSource
-        path: "/Textures/NES/Parallaxes/NebulaBlue.png"
-      slowness: 0.998046875
-      scrolling: "0, -0.098046875"
+        path: "/Textures/NES/Parallaxes/PurpleParallax2.png"
+      slowness: 0.9999
+      scrolling: "0.009899, -0.0098388"
       scale: "1, 1"
     - texture:
         !type:GeneratedParallaxTextureSource
         id: "hq_wizard_stars"
         configPath: "/Prototypes/Parallaxes/parallax_config_stars.toml"
-      slowness: 0.996625
-      scrolling: "0, -0.09804675"
-    - texture:
-        !type:GeneratedParallaxTextureSource
-        id: "hq_wizard_stars_dim"
-        configPath: "/Prototypes/Parallaxes/parallax_config_stars_dim.toml"
-      slowness: 0.989375
-      scrolling: "0, -0.098046875"
+      slowness: 0.995
     - texture:
         !type:GeneratedParallaxTextureSource
         id: "hq_wizard_stars_faster"
         configPath: "/Prototypes/Parallaxes/parallax_config_stars-2.toml"
-      slowness: 0.987265625
-      scrolling: "0, -0.0980468075"
+      slowness: 0.999
     - texture:
         !type:GeneratedParallaxTextureSource
         id: "hq_wizard_stars_dim_faster"
         configPath: "/Prototypes/Parallaxes/parallax_config_stars_dim-2.toml"
-      slowness: 0.984352
+      slowness: 0.9990
+    - texture:
+        !type:GeneratedParallaxTextureSource
+        id: "hq_wizard_stars"
+        configPath: "/Prototypes/Parallaxes/parallax_config_stars.toml"
+      slowness: 0.9990115
   layersLQ:
     - texture:
         !type:GeneratedParallaxTextureSource

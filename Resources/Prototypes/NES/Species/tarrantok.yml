@@ -28,7 +28,7 @@
     Snout: MobTarrantokAnyMarkingFollowSkin
     HeadTop: MobTarrantokAnyMarkingFollowSkin
     HeadSide: MobTarrantokAnyMarkingFollowSkin
-    Tail: MobTarrantokAnyMarkingFollowSkin
+    Tail: MobHumanoidAnyMarking
     Chest: MobTarrantokTorso
     Eyes: MobTarrantokEyes
     LArm: MobTarrantokLArm

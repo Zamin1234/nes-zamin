@@ -28,7 +28,7 @@
     Snout: MobAvianAnyMarkingFollowSkin
     HeadTop: MobAvianAnyMarkingFollowSkin
     HeadSide: MobAvianAnyMarkingFollowSkin
-    Tail: MobAvianAnyMarkingFollowSkin
+    Tail: MobHumanoidAnyMarking
     Chest: MobAvianTorso
     Eyes: MobAvianEyes
     LArm: MobAvianLArm

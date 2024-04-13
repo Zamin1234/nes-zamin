@@ -26,6 +26,9 @@ public abstract class ClothingSystem : EntitySystem
     [ValidatePrototypeId<TagPrototype>]
     private const string NoseTag = "HidesNose";
 
+    [ValidatePrototypeId<TagPrototype>]
+    private const string TailTag = "HidesTail"; //NES-changes
+
     public override void Initialize()
     {
         base.Initialize();
@@ -131,6 +134,8 @@ public abstract class ClothingSystem : EntitySystem
             ToggleVisualLayer(args.Equipee, HumanoidVisualLayers.Hair, HairTag);
         if ((new string[] { "mask", "head" }).Contains(args.Slot) && _tagSystem.HasTag(args.Equipment, NoseTag))
             ToggleVisualLayer(args.Equipee, HumanoidVisualLayers.Snout, NoseTag);
+        if ((new string[] { "outerClothing" }).Contains(args.Slot) && _tagSystem.HasTag(args.Equipment, TailTag)) //NES-changes добавляем возможность скрыть хвост
+            ToggleVisualLayer(args.Equipee, HumanoidVisualLayers.Tail, TailTag);
     }
 
     protected virtual void OnGotUnequipped(EntityUid uid, ClothingComponent component, GotUnequippedEvent args)
@@ -140,6 +145,8 @@ public abstract class ClothingSystem : EntitySystem
             ToggleVisualLayer(args.Equipee, HumanoidVisualLayers.Hair, HairTag);
         if ((new string[] { "mask", "head" }).Contains(args.Slot) && _tagSystem.HasTag(args.Equipment, NoseTag))
             ToggleVisualLayer(args.Equipee, HumanoidVisualLayers.Snout, NoseTag);
+        if ((new string[] { "outerClothing" }).Contains(args.Slot) && _tagSystem.HasTag(args.Equipment, TailTag)) //NES-changes добавляем возможность скрыть хвост
+            ToggleVisualLayer(args.Equipee, HumanoidVisualLayers.Tail, TailTag);
     }
 
     private void OnGetState(EntityUid uid, ClothingComponent component, ref ComponentGetState args)
