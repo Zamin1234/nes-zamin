@@ -1,0 +1,27 @@
+- type: entity
+  parent: BasePDA
+  id: NesBasePDA
+  name: КПК
+  description: Карманный персональный компьютер с сенсорным экраном, в него можно вставить свою айди карту или использовать как фонарик.
+  components:
+  - type: PointLight
+    color: "#86b9ec"
+    enabled: false
+    radius: 1.5
+    softness: 5
+    autoRot: true
+  - type: Sprite
+    sprite: NES/Objects/Misc/pda.rsi
+    layers:
+    - map: [ "enum.PdaVisualLayers.Base" ]
+    - state: "light_overlay"
+      map: [ "enum.PdaVisualLayers.Flashlight" ]
+      shader: "unshaded"
+      visible: false
+    - state: "id_overlay"
+      map: [ "enum.PdaVisualLayers.IdLight" ]
+      shader: "unshaded"
+      visible: false
+  - type: Icon
+    sprite: NES/Objects/Misc/pda.rsi
+    state: pda

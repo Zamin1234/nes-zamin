@@ -7,7 +7,7 @@
   - type: Transform
     anchored: true
   - type: Sprite
-    sprite: Objects/Devices/nuke.rsi
+    sprite: NES/Objects/Misc/nuke.rsi #NES-Changes
     noRot: true
     layers:
     - state: nuclearbomb_base
@@ -61,7 +61,7 @@
     color: "#FF4020"
     mask: /Textures/Effects/LightMasks/double_cone.png
   - type: RotatingLight
-    speed: 120
+    speed: 200
   - type: NavMapBeacon
     color: "#ff0000"
     text: nuclear fission explosive

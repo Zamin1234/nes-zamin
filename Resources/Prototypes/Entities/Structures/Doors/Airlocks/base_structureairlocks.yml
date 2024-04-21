@@ -53,9 +53,9 @@
       types:
         Blunt: 15
     openSound:
-      path: /Audio/Machines/airlock_open.ogg
+      path: /Audio/NES/Doors/Open.ogg #NES-Changes
     closeSound:
-      path: /Audio/Machines/airlock_close.ogg
+      path: /Audio/NES/Doors/Close.ogg
     denySound:
       path: /Audio/Machines/airlock_deny.ogg
   - type: ContainerContainer
