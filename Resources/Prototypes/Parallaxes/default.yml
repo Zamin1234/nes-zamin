@@ -2,7 +2,7 @@
   id: Blank
 
 - type: parallax
-  id: Default
+  id: OldDefault
   layers:
     - texture:
         !type:ImageParallaxTextureSource

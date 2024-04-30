@@ -1,36 +1,97 @@
 - type: parallax
-  id: NesAsteroids
+  id: Default
   layers:
     - texture:
         !type:ImageParallaxTextureSource
-        path: "/Textures/NES/Parallaxes/GreenParallax.png"
-      slowness: 0.98
+        path: "/Textures/NES/Parallaxes/Frontier.png"
+      slowness: 0.999
+      scrolling: "-0.005, 0"
       scale: "1, 1"
     - texture:
         !type:GeneratedParallaxTextureSource
         id: "hq_wizard_stars"
         configPath: "/Prototypes/Parallaxes/parallax_config_stars.toml"
+      slowness: 0.995
+      scrolling: "-0.0061, 0"
+    - texture:
+        !type:GeneratedParallaxTextureSource
+        id: "hq_wizard_stars_faster"
+        configPath: "/Prototypes/Parallaxes/parallax_config_stars-2.toml"
+      slowness: 0.999
+      scrolling: "-0.0099, 0"
+    - texture:
+        !type:GeneratedParallaxTextureSource
+        id: "hq_wizard_stars_dim_faster"
+        configPath: "/Prototypes/Parallaxes/parallax_config_stars_dim-2.toml"
+      slowness: 0.9990
+      scrolling: "-0.0009, 0"
+    - texture:
+        !type:GeneratedParallaxTextureSource
+        id: "hq_wizard_stars"
+        configPath: "/Prototypes/Parallaxes/parallax_config_stars.toml"
+      slowness: 0.9990115
+      scrolling: "-0.0059, 0"
+    - texture:
+        !type:ImageParallaxTextureSource
+        path: "/Textures/NES/Parallaxes/AsteroidsSmall.png"
       slowness: 0.99
+      scale: "0.5, 0.5"
+      scrolling: "-0.005, 0"
     - texture:
         !type:ImageParallaxTextureSource
-        path: "/Textures/NES/Parallaxes/Asteroids.png"
+        path: "/Textures/NES/Parallaxes/AsteroidsSmall.png"
+      slowness: 0.97
+      scale: "1, 1"
+      scrolling: "-0.005, 0"
+    - texture:
+        !type:ImageParallaxTextureSource
+        path: "/Textures/NES/Parallaxes/SalvageSmall.png"
+      slowness: 0.97
+      scale: "1, 1"
+    - texture:
+        !type:ImageParallaxTextureSource
+        path: "/Textures/NES/Parallaxes/SalvageMedium.png"
       slowness: 0.94
-      scale: "0.3, 0.3"
-      tiled: true
-      scrolling: "0.05, -0.05"
+      scale: "1, 1"
     - texture:
         !type:ImageParallaxTextureSource
-        path: "/Textures/NES/Parallaxes/Asteroids.png"
+        path: "/Textures/NES/Parallaxes/AsteroidsMedium.png"
+      slowness: 0.93
+      scale: "1, 1"
+      scrolling: "-0.007, 0"
+    - texture:
+        !type:ImageParallaxTextureSource
+        path: "/Textures/NES/Parallaxes/AsteroidsBig.png"
+      slowness: 0.9
+      scale: "1, 1"
+      scrolling: "-0.009, 0"
+    - texture:
+        !type:ImageParallaxTextureSource
+        path: "/Textures/NES/Parallaxes/SalvageBig.png"
       slowness: 0.89
       scale: "1, 1"
-      tiled: true
-      scrolling: "0.05, -0.05"
+    - texture:
+        !type:ImageParallaxTextureSource
+        path: "/Textures/NES/Parallaxes/SalvageSmall.png"
+      slowness: 0.81
+      scale: "0.8, 0.8"
+    - texture:
+        !type:ImageParallaxTextureSource
+        path: "/Textures/NES/Parallaxes/AsteroidsSmall.png"
+      slowness: 0.8
+      scale: "1, 1"
+      scrolling: "-0.05, 0"
   layersLQ:
     - texture:
         !type:GeneratedParallaxTextureSource
-        id: ""
+        id: "AsteroidsSmall"
         configPath: "/Prototypes/Parallaxes/parallax_config.toml"
         slowness: 0.875
+    - texture:
+        !type:ImageParallaxTextureSource
+        path: "/Textures/NES/Parallaxes/SalvageSmall.png"
+      slowness: 0.97
+      scale: "1, 1"
   layersLQUseHQ: false
 
 - type: parallax
